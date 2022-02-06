@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const fileGenerator = require("./filegenerator");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user to answer
 const questions = [
