@@ -44,7 +44,7 @@ function fileGenerator(response) {
     
     ## Contact Information
     Email: ${response.email}
-    Github Username: ${response.username}
+    Github Username: [${response.username}](https://github.com/${response.username})
 
     ## Credits
     ${response.credits}
